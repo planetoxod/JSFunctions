@@ -1,7 +1,7 @@
 # JSFunctions
 Javascript functions
  Converting a phone number to a mask 
-           function formatPhoneNumber(input, mask = maskPhone) 
+           function formatPhoneNumber(input, mask = maskPhone)   ,
  input - number,
  mask - '+7 (000) 000-00-00',
  maskPhone - default mask ,
