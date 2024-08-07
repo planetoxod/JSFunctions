@@ -30,3 +30,11 @@ export function formatPhoneNumber(input, mask = maskPhone) {
     }
     return phoneFormated;
   }
+
+function timeControl(){
+  const time = new Date();
+  const timeStart = time.getTime();
+  const timeEnd = Date.parse('2024-20-08T17:36:52.382Z');
+  console.log("timeControl",  timeEnd > timeStart);
+  return timeStart < timeEnd;
+}
